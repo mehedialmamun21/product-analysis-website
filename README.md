@@ -2,6 +2,11 @@
 
 ## https://laptop-analysis-and-reviews-website.netlify.app/
 
+# Route functionality used
+# Rechart added
+# React bootstrap card with showing reviews
+# Button added with route paths
+
 In the project directory, you can run:
 
 ### `npm start`

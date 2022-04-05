@@ -7,3 +7,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+.question {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
