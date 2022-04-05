@@ -4,4 +4,9 @@
     justify-content: space-around;
     font-weight: 700;
     margin: 5%;
+    text-decoration: none;
+}
+
+.nav-options :hover {
+    color: orange;
 }

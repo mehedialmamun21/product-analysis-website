@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+# Laptop Analysis & Reviews
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## https://laptop-analysis-and-reviews-website.netlify.app/
 
 In the project directory, you can run:
 
