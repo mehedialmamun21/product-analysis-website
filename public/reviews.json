@@ -1,38 +1,38 @@
 [
     {
         "id": 1,
-        "name": "mehedi",
-        "feedback": "good",
+        "name": " mehedi",
+        "feedback": " good",
         "rating": 4
     },
     {
         "id": 2,
-        "name": "rakib",
-        "feedback": "excellent",
+        "name": " rakib",
+        "feedback": " excellent",
         "rating": 3
     },
     {
         "id": 3,
-        "name": "bikash",
-        "feedback": "very good",
+        "name": " bikash",
+        "feedback": " very good",
         "rating": 2
     },
     {
         "id": 4,
-        "name": "rimon",
-        "feedback": "superb",
+        "name": " rimon",
+        "feedback": " superb",
         "rating": 5
     },
     {
         "id": 5,
-        "name": "sahid",
-        "feedback": "awesome",
+        "name": " sahid",
+        "feedback": " awesome",
         "rating": 3
     },
     {
         "id": 6,
-        "name": "sayeed",
-        "feedback": "fantastic",
+        "name": " sayeed",
+        "feedback": " fantastic",
         "rating": 4
     }
 ]
