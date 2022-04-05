@@ -6,6 +6,7 @@
 ### Rechart added
 ### React bootstrap card with showing reviews
 ### Button added with route paths
+### 404 (Not Found) functionality used
 
 In the project directory, you can run:
 
