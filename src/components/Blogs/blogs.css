@@ -1,3 +1,9 @@
 .blogs-details {
     text-align: center;
+    margin: 10%;
+}
+
+.block-inline {
+    display: flex;
+    justify-content: space-between;
 }

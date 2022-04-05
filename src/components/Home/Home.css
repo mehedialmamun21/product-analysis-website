@@ -16,3 +16,27 @@
     width: 50%;
     text-align: center;
 }
+
+.home-review {
+    text-align: center;
+    margin: 5%;
+}
+
+.home-review h2 {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.more-reviews {
+    text-decoration: none;
+    margin: 5%;
+    text-align: center;
+}
+
+.more-reviews button {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #16efa7f2;
+    font-weight: bold;
+}

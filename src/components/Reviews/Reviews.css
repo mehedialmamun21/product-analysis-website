@@ -1,3 +1,16 @@
 .review-details {
     text-align: center;
+    margin: 5%;
+}
+
+.review-details h2 {
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #e99f15bc;
+}
+
+.customers-say {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
 }
