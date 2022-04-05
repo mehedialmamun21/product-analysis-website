@@ -1,0 +1,7 @@
+.nav-options {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    margin: 5%;
+}
