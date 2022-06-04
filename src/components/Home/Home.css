@@ -23,20 +23,26 @@
 }
 
 .home-review h2 {
-    color: #15be15b9;
+    color: #2a83bea7;
     font-weight: bold;
     margin-bottom: 5%;
 }
 
 .more-reviews {
-    text-decoration: none;
-    margin: 5%;
-    text-align: center;
+    margin-top: 60px;
 }
 
 .more-reviews button {
-    border-radius: 10px;
-    padding: 5px;
-    background-color: #16efa7f2;
+    border: none;
+    border-radius: 20px;
+    background-color: #106ca9;
+    padding: 5px 30px;
+    color: #FFFFFF;
+    font-size: 18px;
     font-weight: bold;
+}
+
+.more-reviews button:hover {
+    background-color: #ffa600b8;
+    color: #373535;
 }

@@ -1,9 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+// import useHook from '../../hooks/useHooks';
 import Review from '../Review/Review';
 import './Home.css'
 
 const Home = () => {
+
+    // const [reviews] = useHook();
+
     const [reviews, setReviews] = useState([]);
 
     useEffect(() => {
@@ -11,10 +15,6 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setReviews(data.splice(0, 3)))
     }, [])
-
-    // const clickHandler(rev) => {
-    //     <a href="http://localhost:3000/reviews"></a>
-    // }
 
     return (
         <div >
@@ -25,7 +25,7 @@ const Home = () => {
                         FHD IPS Display Black Gaming Laptop #NH.Q5HSI.005
                     </p>
                     <p>
-                        Specialty : Backlit KeyBoard, Gaming Notebook.
+                        Specialty : Backlit KeyBoard.
                     </p>
                     <p>
                         Others : HDCP Supported: Yes, Wireless LAN: Wireless-AC 9560,
@@ -44,10 +44,7 @@ const Home = () => {
             </div>
 
 
-            {/* 
-                onClick={clickHandler(rev)}
-            */}
-
+            {/* -------------------------------------------------------------------------- */}
 
             <div className='home-review'>
                 <h2>Customer Reviews : <small> ({reviews.length}) </small> </h2>
@@ -60,7 +57,7 @@ const Home = () => {
                 <div className='more-reviews'>
                     <Link to="/reviews">
                         <button type="button">
-                            see more reviews!
+                            see more reviews
                         </button>
                     </Link>
                 </div>
